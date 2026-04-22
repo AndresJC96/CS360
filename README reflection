@@ -1,0 +1,23 @@
+Project Three Mobile App
+
+This project is a simple mobile application that allows users to create an account, log in, and manage data using a database. The app also includes an SMS feature that allows users to request permission and send a test message.
+
+Features
+User account creation and login
+SQLite database for storing data
+Add, update, and delete items
+SMS permission handling
+Send test SMS notification
+Reflection
+
+The goal of the app I developed was to create a simple mobile application that allows users to log in and manage data in a database. The app was designed to help users store and update information, which could represent inventory, tasks, or other types of data. It also included an SMS feature to send notifications, which adds another layer of functionality and shows how permissions are handled in a real app.
+
+To support user needs, the app includes a login screen, a data grid screen, and an SMS screen. The login screen allows users to create an account and sign in, which keeps their data organized. The grid screen allows users to add, update, and delete items, which makes it easy to manage their information. The SMS screen allows users to control permissions and send a test message. The UI design was kept simple so users can easily understand what to do without confusion.
+
+When coding the app, I took a step by step approach. I worked on one feature at a time instead of trying to build everything at once. I used testing frequently to check if each part was working before moving on. When I ran into problems, I tried to break them down and fix them one at a time. This helped me stay organized and not get overwhelmed.
+
+To test the app, I used the Android Emulator to run the app and check each feature. I tested login, database actions, and the SMS permission flow. Testing was important because it helped me find errors early and understand what was not working.
+
+During development, I had to figure out how to connect different parts of the app, especially the database and permissions. There were times where things did not work, and I had to try different solutions to fix the problem. This helped me improve my problem solving skills.
+
+One part of the app where I was most successful was implementing the database with full CRUD functionality. I was also successful in handling SMS permissions correctly while keeping the app working even if permission was denied.
